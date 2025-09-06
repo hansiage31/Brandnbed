@@ -1,18 +1,37 @@
-# dependencies
+# Dependencies
 node_modules/
 
-# build output
+# Build output
 dist/
 build/
 
-# misc
+# System files
 .DS_Store
 Thumbs.db
 
-# logs
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# lock files in wrong places
-src/package-lock.json
+# Lock file
+/package-lock.json
+
+# Tailwind CSS cache (optional but recommended)
+.tailwind/
+
+# Environment variables
+.env
+.env.*
+
+# Editor settings
+.vscode/
+.idea/
+
+# Optional: OS-specific
+*.swp
+*.swo
+
+# Optional: Parcel/Vite cache
+.cache/
+
