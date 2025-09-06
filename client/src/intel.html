@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
+    <title>BrandenBed - Find Your Dream Space in Berlin</title>
+
+    <!-- SEO & Social Sharing -->
+    <meta name="description" content="BrandenBed helps you find modern and cozy living spaces in Berlin. Explore properties, book visits, and discover your dream home easily.">
+    <meta property="og:title" content="BrandenBed - Find Your Dream Space in Berlin" />
+    <meta property="og:description" content="Find your perfect living space in Berlin with BrandenBed." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/favicon.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Basic Styling Before React Loads -->
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+        color: #1a237e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      #root {
+        width: 100%;
+      }
+      /* Loader while React loads */
+      #loading {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #0d47a1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loader text before React mounts -->
+    <div id="loading">✨ Loading BrandenBed...</div>
+
+    <!-- React will replace this -->
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
